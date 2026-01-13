@@ -1,3 +1,4 @@
+// Main entry point for Spring Boot Backend
 package com.inventory.inventory_backend;
 
 import org.springframework.boot.SpringApplication;
