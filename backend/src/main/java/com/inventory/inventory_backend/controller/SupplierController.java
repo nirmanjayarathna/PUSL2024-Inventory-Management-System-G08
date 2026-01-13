@@ -1,3 +1,4 @@
+// Controller for Supplier Registration Logic
 package com.inventory.inventory_backend.controller;
 
 import com.inventory.inventory_backend.model.Supplier;
@@ -53,3 +54,4 @@ public class SupplierController {
         return ResponseEntity.ok(existing);
     }
 }
+
