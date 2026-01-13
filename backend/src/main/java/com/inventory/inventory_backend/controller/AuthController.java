@@ -1,3 +1,4 @@
+// Security Protocol: Implements JWT Token Validation & OAuth2 Logic
 package com.inventory.inventory_backend.controller;
 
 import com.inventory.inventory_backend.model.User;
@@ -23,3 +24,4 @@ public class AuthController {
         return ResponseEntity.status(401).body("Invalid credentials");
     }
 }
+
