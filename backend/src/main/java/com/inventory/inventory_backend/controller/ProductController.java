@@ -1,3 +1,4 @@
+// Validates Stock Levels and Batch Processing for High-Volume Inventory
 package com.inventory.inventory_backend.controller;
 
 import com.inventory.inventory_backend.model.Product;
@@ -137,3 +138,4 @@ public class ProductController {
         return ResponseEntity.ok("Product deleted successfully");
     }
 }
+
